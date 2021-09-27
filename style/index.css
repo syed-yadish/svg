@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+body {
+  margin: 0;
+  background-color: rgb(250, 255, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  margin-top: 10px;
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #fff(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.5em;
+  font-family: Raleway;
+  font-weight: bold;
+  color: black;
+}
+h4 {
+  font-family: Raleway;
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.tick {
+  width: 300px;
+  height: 300px;
+  margin-left: 80px;
+}
+.delete {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+.envelope {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.clock-box {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+}
+
+.delete-box {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+}
